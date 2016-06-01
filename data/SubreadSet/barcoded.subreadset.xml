@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SubreadSet CreatedAt="2016-03-31T18:18:39" MetaType="PacBio.DataSet.SubreadSet" Name="barcoded-subreadset" Tags="" TimeStampedName="pacbio_dataset_subreadset-160401_011839830" UniqueId="ceec5b21-69cc-0c4b-91db-d00835210816" Version="3.0.1" xmlns="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:pbbase="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pacificbiosciences.com/PacBioDataModel.xsd">
+	<pbbase:ExternalResources>
+		<pbbase:ExternalResource MetaType="PacBio.SubreadFile.SubreadBamFile" ResourceId="barcoded.subreads.bam" TimeStampedName="pacbio_subreadfile_subreadbamfile-160401_011839830" UniqueId="1c4a4fa3-2c6a-4d0a-867d-9bbb932af555">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="barcoded.subreads.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-160401_011839830" UniqueId="c17c4401-0f56-40b5-85c6-46f7771105c7"/>
+			</pbbase:FileIndices>
+      <pbbase:ExternalResources>
+        <pbbase:ExternalResource Description="Points to the scraps bam file." MetaType="PacBio.SubreadFile.ScrapsBamFile" Name="scraps bam" ResourceId="barcoded.scraps.bam" TimeStampedName="pacbio_subreadfile_scrapsbamfile-160219_060028519" UniqueId="c7fc0c63-234b-4b93-9976-d7d82cb03e71" Version="3.0.1">
+          <pbbase:FileIndices>
+            <pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="barcoded.scraps.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-160219_060028519" UniqueId="77ecadb3-e2b0-48b4-80ca-3de1e87b339d" Version="3.0.1" />
+          </pbbase:FileIndices>
+        </pbbase:ExternalResource>
+      </pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+	</pbbase:ExternalResources>
+	<DataSetMetadata>
+		<TotalLength>1640</TotalLength>
+		<NumRecords>2</NumRecords>
+	</DataSetMetadata>
+</SubreadSet>
