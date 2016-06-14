@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SubreadSet CreatedAt="2016-06-13T16:26:20" MetaType="PacBio.DataSet.SubreadSet" Name="pacbio_dataset_subreadset-160613_232620602" Tags="" TimeStampedName="pacbio_dataset_subreadset-160613_232620602" UniqueId="c9074f64-37e0-d795-9b8e-7190ac6f87a5" Version="3.0.1" xmlns="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:ns4="http://pacificbiosciences.com/PacBioReagentKit.xsd" xmlns:pbbase="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" xmlns:pbmeta="http://pacificbiosciences.com/PacBioCollectionMetadata.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pacificbiosciences.com/PacBioDataModel.xsd">
+	<pbbase:ExternalResources>
+		<pbbase:ExternalResource MetaType="PacBio.SubreadFile.SubreadBamFile" ResourceId="/home/nechols/src/PacBioTestData/data/SubreadSet/m54006_160504_020705.tiny.subreads.bam" TimeStampedName="pacbio_subreadfile_subreadbamfile-160613_232620601" UniqueId="b5412e74-6eb4-4a63-bd82-731c87fe0122">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="/home/nechols/src/PacBioTestData/data/SubreadSet/m54006_160504_020705.tiny.subreads.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-160613_232620601" UniqueId="d356c436-892d-4199-b946-0f4fbdb834da"/>
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource MetaType="PacBio.SubreadFile.ScrapsBamFile" ResourceId="/home/nechols/src/PacBioTestData/data/SubreadSet/m54006_160504_020705.tiny.scraps.bam" TimeStampedName="pacbio_subreadfile_scrapsbamfile-160613_232620601" UniqueId="824fa041-e354-4fc2-9669-ae6ae54a80fc">
+					<pbbase:FileIndices>
+						<pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="/home/nechols/src/PacBioTestData/data/SubreadSet/m54006_160504_020705.tiny.scraps.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-160504_063727354" UniqueId="cc0d00fe-07da-4a6b-bf42-746d3fde43ea" Version="3.0.1"/>
+					</pbbase:FileIndices>
+				</pbbase:ExternalResource>
+				<pbbase:ExternalResource Description="Points to the summary sts.xml file." MetaType="PacBio.SubreadFile.ChipStatsFile" Name="Chipstats XML" ResourceId="/home/nechols/src/PacBioTestData/data/SubreadSet/m54006_160504_020705.sts.xml" TimeStampedName="pacbio_subreadfile_chipstatsfile-160504_063727355" UniqueId="60051785-dbc1-4760-a117-b67d50f105bd" Version="3.0.1"/>
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+	</pbbase:ExternalResources>
+	<DataSetMetadata>
+		<TotalLength>19014</TotalLength>
+		<NumRecords>20</NumRecords>
+		<pbmeta:Collections>
+			<pbmeta:CollectionMetadata Context="m54006_160504_020705" CreatedAt="2016-05-03T23:37:42.775Z" InstrumentId="54006" InstrumentName="Alpha6" MetaType="CollectionMetadata" ModifiedAt="0001-01-01T00:00:00" Status="Ready" TimeStampedName="54006-CollectionMetadata-2016-37-03T23:37:56.212Z" UniqueId="7fac56f8-92bf-44f1-a474-7d3a96a8d347">
+				<pbmeta:InstCtrlVer>3.1.0.179041</pbmeta:InstCtrlVer>
+				<pbmeta:SigProcVer>3.1.0-179029</pbmeta:SigProcVer>
+				<pbmeta:RunDetails>
+					<pbmeta:TimeStampedName>r54006_20160503_233756</pbmeta:TimeStampedName>
+					<pbmeta:Name>lambda</pbmeta:Name>
+					<pbmeta:WhenCreated>2016-05-03T23:37:42.775Z</pbmeta:WhenCreated>
+					<pbmeta:WhenStarted>2016-05-03T23:41:59.065365Z</pbmeta:WhenStarted>
+				</pbmeta:RunDetails>
+				<pbmeta:WellSample CreatedAt="2016-05-03T23:37:42.775Z" ModifiedAt="0001-01-01T00:00:00" Name="2k_lambda_Mag_2hr">
+					<pbmeta:WellName>B01</pbmeta:WellName>
+					<pbmeta:Concentration>0.0</pbmeta:Concentration>
+					<pbmeta:InsertSize>10000</pbmeta:InsertSize>
+					<pbmeta:SampleReuseEnabled>false</pbmeta:SampleReuseEnabled>
+					<pbmeta:StageHotstartEnabled>false</pbmeta:StageHotstartEnabled>
+					<pbmeta:SizeSelectionEnabled>false</pbmeta:SizeSelectionEnabled>
+					<pbmeta:UseCount>0</pbmeta:UseCount>
+					<pbmeta:DNAControlComplex>Sequel™ SMRT®Cell Control Complex 1.0</pbmeta:DNAControlComplex>
+				</pbmeta:WellSample>
+				<pbmeta:Automation Name="Workflow_Magbead.py">
+					<pbbase:AutomationParameters>
+						<pbbase:AutomationParameter CreatedAt="2016-05-03T23:37:42.775Z" ModifiedAt="0001-01-01T00:00:00" Name="MovieLength" SimpleValue="120" ValueDataType="Double"/>
+						<pbbase:AutomationParameter CreatedAt="2016-05-03T23:37:42.775Z" ModifiedAt="0001-01-01T00:00:00" Name="ImmobilizationTime" SimpleValue="120" ValueDataType="Double"/>
+						<pbbase:AutomationParameter Name="CollectionNumber" SimpleValue="1" ValueDataType="Int32"/>
+						<pbbase:AutomationParameter Name="UseStageHotStart" SimpleValue="False" ValueDataType="String"/>
+						<pbbase:AutomationParameter Name="InsertSize" SimpleValue="10000" ValueDataType="Int32"/>
+					</pbbase:AutomationParameters>
+				</pbmeta:Automation>
+				<pbmeta:CollectionNumber>1</pbmeta:CollectionNumber>
+				<pbmeta:CellIndex>1</pbmeta:CellIndex>
+				<pbmeta:CellPac Barcode="BA010713635979244259265850" ExpirationDate="2016-11-04" LotNumber="320296" PartNumber="100-512-700"/>
+				<pbmeta:TemplatePrepKit Barcode="DM1117100259100111716" ExpirationDate="2016-11-17" LotNumber="DM1117" MaxInsertSize="20000" MinInsertSize="500" Name="SMRTbell™ Template Prep Kit" PartNumber="100-259-100">
+					<pbbase:LeftAdaptorSequence>ATCTCTCTCAACAACAACAACGGAGGAGGAGGAAAAGAGAGAGAT</pbbase:LeftAdaptorSequence>
+					<pbbase:RightAdaptorSequence>ATCTCTCTCAACAACAACAACGGAGGAGGAGGAAAAGAGAGAGAT</pbbase:RightAdaptorSequence>
+				</pbmeta:TemplatePrepKit>
+				<pbmeta:BindingKit Barcode="DM1117100619300111716" ExpirationDate="2016-11-17" LotNumber="DM1117" Name="Sequel™ Binding Kit 1.0" PartNumber="100-619-300"/>
+				<pbmeta:SequencingKitPlate Barcode="160318100620000031817" ExpirationDate="2017-03-18" LotNumber="160318" Name="Sequel™ Sequencing Plate 1.0" PartNumber="100-620-000">
+					<ns4:ReagentTubes ExpirationDate="2018-05-12" LotNumber="706520" PartNumber="100-619-700"/>
+					<ns4:ReagentTubes ExpirationDate="2020-02-28" LotNumber="007045" PartNumber="100-619-600"/>
+				</pbmeta:SequencingKitPlate>
+				<pbmeta:Primary>
+					<pbmeta:AutomationName>Default</pbmeta:AutomationName>
+					<pbmeta:ConfigFileName>SqlPoC_SubCrf_2C2A-t2.xml</pbmeta:ConfigFileName>
+					<pbmeta:SequencingCondition>DefaultPrimarySequencingCondition</pbmeta:SequencingCondition>
+					<pbmeta:OutputOptions>
+						<pbmeta:ResultsFolder>315/3150198/r54006_20160503_233756/2_B01/</pbmeta:ResultsFolder>
+						<pbmeta:CollectionPathUri>/pbi/collections/315/3150198/r54006_20160503_233756/2_B01/</pbmeta:CollectionPathUri>
+						<pbmeta:CopyFiles>
+							<pbmeta:CollectionFileCopy>Fasta</pbmeta:CollectionFileCopy>
+							<pbmeta:CollectionFileCopy>Bam</pbmeta:CollectionFileCopy>
+						</pbmeta:CopyFiles>
+						<pbmeta:Readout>Bases_Without_QVs</pbmeta:Readout>
+						<pbmeta:MetricsVerbosity>Minimal</pbmeta:MetricsVerbosity>
+						<pbmeta:TransferResource>
+							<pbmeta:Id>rsync-pbi-collections</pbmeta:Id>
+							<pbmeta:TransferScheme>RSYNC</pbmeta:TransferScheme>
+							<pbmeta:Name>PBI Collections Transfer test using Rsync Server</pbmeta:Name>
+							<pbmeta:Description>Location for writing Transfer services to write to. For testing, Internal tools (PA SIM and ICS) tests must explicitly set the relative path prefix to 'xfer-test'</pbmeta:Description>
+							<pbmeta:DestPath>/pbi/collections</pbmeta:DestPath>
+						</pbmeta:TransferResource>
+					</pbmeta:OutputOptions>
+				</pbmeta:Primary>
+				<pbmeta:Secondary>
+					<pbmeta:AutomationName>DefaultSecondaryAutomationName</pbmeta:AutomationName>
+					<pbmeta:AutomationParameters>
+						<pbmeta:AutomationParameter CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00" Name="Reference" SimpleValue="DefaultSecondaryAnalysisReferenceName" ValueDataType="String"/>
+					</pbmeta:AutomationParameters>
+					<pbmeta:CellCountInJob>0</pbmeta:CellCountInJob>
+				</pbmeta:Secondary>
+				<pbmeta:UserDefinedFields>
+					<pbbase:DataEntities Name=" LIMS_IMPORT " SimpleValue="DefaultUserDefinedFieldLIMS" ValueDataType="String"/>
+				</pbmeta:UserDefinedFields>
+			</pbmeta:CollectionMetadata>
+		</pbmeta:Collections>
+	</DataSetMetadata>
+</SubreadSet>
