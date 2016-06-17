@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HdfSubreadSet CreatedAt="2016-06-17T11:36:54" MetaType="PacBio.DataSet.HdfSubreadSet" Name="hdfsubreads" Tags="" TimeStampedName="pacbio_dataset_hdfsubreadset-160617_183654177" UniqueId="43c51ade-cb34-f699-9b36-f39744bc421d" Version="3.0.1" xmlns="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:pbbase="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pacificbiosciences.com/PacBioDataModel.xsd">
+	<pbbase:ExternalResources>
+		<pbbase:ExternalResource MetaType="PacBio.SubreadFile.BaxFile" ResourceId="m140912_020930_00114_c100702482550000001823141103261590_s1_p0.1.bax.h5" TimeStampedName="pacbio_subreadfile_baxfile-160617_183653985" UniqueId="1226d3bb-d249-45d2-ba90-8e4dded376ed"/>
+		<pbbase:ExternalResource MetaType="PacBio.SubreadFile.BaxFile" ResourceId="m140912_020930_00114_c100702482550000001823141103261590_s1_p0.2.bax.h5" TimeStampedName="pacbio_subreadfile_baxfile-160617_183653985" UniqueId="0d9f8a76-9d1a-410f-a700-174df17972ec"/>
+		<pbbase:ExternalResource MetaType="PacBio.SubreadFile.BaxFile" ResourceId="m140912_020930_00114_c100702482550000001823141103261590_s1_p0.3.bax.h5" TimeStampedName="pacbio_subreadfile_baxfile-160617_183653985" UniqueId="c4521ac9-ba73-478a-939b-9a808fb10d5d"/>
+	</pbbase:ExternalResources>
+	<DataSetMetadata>
+		<TotalLength>58468</TotalLength>
+		<NumRecords>9</NumRecords>
+	</DataSetMetadata>
+</HdfSubreadSet>

@@ -78,15 +78,39 @@
     "filetype": "PacBio.DataSet.ConsensusAlignmentSet"
   },
   {
+    "id": "ccs-bam-aligned",
+    "description": "Mapped CCS BAM file",
+    "path": "ConsensusAlignmentSet/mapped.consensusalignmentset.bam",
+    "filetype": "PacBio.AlignmentFile.ConsensusAlignmentBamFile"
+  },
+  {
     "id": "rsii-ccs",
     "description": "ConsensusReadSet of RSII lambda data",
     "path": "ConsensusReadSet/m130727_114215_42211_c100569412550000001823090301191423_s1_p0.consensusreadset.xml",
     "filetype": "PacBio.DataSet.ConsensusReadSet"
   },
   {
+    "id": "ccs-bam",
+    "description": "CCS BAM file",
+    "path": "ConsensusReadSet/m130727_114215_42211_c100569412550000001823090301191423_s1_p0.ccs.bam",
+    "filetype": "PacBio.ConsensusReadFile.ConsensusReadBamFile"
+  },
+  {
     "id": "rsii-ccs-multi-cell",
     "description": "ConsensusReadSet from multiple RSII cells",
     "path": "ConsensusReadSet/ccs_mixed.consensusreadset.xml",
     "filetype": "PacBio.DataSet.ConsensusReadSet"
+  },
+  {
+    "id": "hdfsubreads",
+    "description": "HdfSubreadSet of RSII data",
+    "path": "HdfSubreadSet/m140912_020930_00114_c100702482550000001823141103261590_s1_p0.all.hdfsubreadset.xml",
+    "filetype": "PacBio.DataSet.HdfSubreadSet"
+  },
+  {
+    "id": "rsii-bax-h5",
+    "description": "RSII bax.h5 file",
+    "path": "HdfSubreadSet/m140912_020930_00114_c100702482550000001823141103261590_s1_p0.1.bax.h5",
+    "filetype": "PacBio.SubreadFile.BaxFile"
   }
 ]
