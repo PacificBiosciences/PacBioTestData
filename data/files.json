@@ -1,0 +1,56 @@
+[
+  {
+    "id": "subreads-xml",
+    "description": "SubreadSet with RSII lambda data",
+    "path": "SubreadSet/m140905_042212_sidney_c100564852550000001823085912221377_s1_X0.subreadset.xml",
+    "filetype": "PacBio.DataSet.SubreadSet"
+  },
+  {
+    "id": "subreads-sequel",
+    "description": "SubreadSet with Sequel data and sts.xml",
+    "path": "SubreadSet/m54006_160504_020705.tiny.subreadset.xml",
+    "filetype": "PacBio.DataSet.SubreadSet"
+  },
+  {
+    "id": "aligned-xml",
+    "description": "AlignmentSet with RSII lambda data",
+    "path": "AlignmentSet/m140905_042212_sidney_c100564852550000001823085912221377_s1_X0.alignmentset.xml",
+    "filetype": "PacBio.DataSet.AlignmentSet"
+  },
+  {
+    "id": "lambdaNEB",
+    "description": "Lambda virus ReferenceSet",
+    "path": "ReferenceSet/lambdaNEB/referenceset.xml",
+    "filetype": "PacBio.DataSet.ReferenceSet"
+  },
+  {
+    "id": "subreads-bam",
+    "description": "BAM file with unmapped RSII subreads",
+    "path": "SubreadSet/m140905_042212_sidney_c100564852550000001823085912221377_s1_X0.subreads.bam",
+    "filetype": "PacBio.SubreadFile.SubreadBamFile"
+  },
+  {
+    "id": "aligned-bam",
+    "description": "RSII BAM file mapped to lambda reference",
+    "path": "AlignmentSet/m140905_042212_sidney_c100564852550000001823085912221377_s1_X0.aligned_subreads.bam",
+    "filetype": "PacBio.AlignmentFile.AlignmentBamFile"
+  },
+  {
+    "id": "lambda-fasta",
+    "description": "Lambda virus genome FASTA",
+    "path": "ReferenceSet/lambdaNEB/sequence/lambdaNEB.fasta",
+    "filetype": "PacBio.FileTypes.Fasta"
+  },
+  {
+    "id": "cmph5",
+    "description": "Aligned RSII sequences in legacy cmp.h5 format",
+    "path": "legacy/m140905_042212_sidney_c100564852550000001823085912221377_s1_X0.aligned_subreads.cmp.h5",
+    "filetype": "PacBio.FileTypes.alignment_cmp_h5"
+  },
+  {
+    "id": "barcoded-subreadset",
+    "description": "Barcoded SubreadSet",
+    "path": "SubreadSet/barcoded.subreadset.xml",
+    "filetype": "PacBio.DataSet.SubreadSet"
+  }
+]
