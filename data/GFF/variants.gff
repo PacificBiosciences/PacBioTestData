@@ -1,0 +1,14 @@
+##gff-version 3
+##pacbio-variant-version 2.1
+##date Wed Feb 10 07:19:31 2016
+##feature-ontology http://song.cvs.sourceforge.net/*checkout*/song/ontology/sofa.obo?revision=1.12
+##source GenomicConsensus 2.0.0
+##source-commandline variantCaller --resolved-tool-contract resolved-tool-contract.json
+##source-alignment-file aligned.subreads.alignmentset.xml
+##source-reference-file references/lambdaNEB/lambdaNEB.referenceset.xml
+##sequence-region lambda_NEB3011 1 48502
+lambda_NEB3011	.	insertion	1536	1536	.	.	.	reference=.;variantSeq=C;coverage=18;confidence=47
+lambda_NEB3011	.	substitution	9251	9251	.	.	.	reference=G;variantSeq=A;coverage=21;confidence=43
+lambda_NEB3011	.	insertion	12534	12534	.	.	.	reference=.;variantSeq=T;coverage=20;confidence=44
+lambda_NEB3011	.	deletion	19183	19183	.	.	.	reference=T;variantSeq=.;coverage=20;confidence=48
+lambda_NEB3011	.	insertion	24872	24872	.	.	.	reference=.;variantSeq=T;coverage=17;confidence=41

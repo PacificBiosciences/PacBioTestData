@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BarcodeSet CreatedAt="2016-06-17T10:07:57" MetaType="PacBio.DataSet.BarcodeSet" Name="pacbio_example_barcodes" Tags="" TimeStampedName="pacbio_dataset_barcodeset-160617_170757950" UniqueId="afa1b6fd-6a44-50d8-838f-cb9d485ce9da" Version="3.0.1" xmlns="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:pbbase="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pacificbiosciences.com/PacBioDataModel.xsd">
+	<pbbase:ExternalResources>
+		<pbbase:ExternalResource MetaType="PacBio.BarcodeFile.BarcodeFastaFile" ResourceId="example_barcodes.fasta" TimeStampedName="pacbio_barcodefile_barcodefastafile-160617_170757950" UniqueId="2826be05-8d49-41b0-a057-66af9980c0ee">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex MetaType="PacBio.Index.SamIndex" ResourceId="example_barcodes.fasta.fai" TimeStampedName="pacbio_index_samindex-160617_170757950" UniqueId="e6247b21-9204-4f32-9992-5fa5931bce35"/>
+			</pbbase:FileIndices>
+		</pbbase:ExternalResource>
+	</pbbase:ExternalResources>
+	<DataSetMetadata>
+		<TotalLength>48</TotalLength>
+		<NumRecords>3</NumRecords>
+		<BarcodeConstruction/>
+	</DataSetMetadata>
+</BarcodeSet>

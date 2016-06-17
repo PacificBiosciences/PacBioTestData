@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConsensusReadSet CreatedAt="2016-06-17T10:31:43" MetaType="PacBio.DataSet.ConsensusReadSet" Name="rsii-ccs-multi-cell" Tags="" TimeStampedName="pacbio_dataset_consensusreadset-160617_173143383" UniqueId="11a80fb3-b369-8924-5408-29dff906b7bf" Version="3.0.1" xmlns="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:pbbase="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pacificbiosciences.com/PacBioDataModel.xsd">
+	<pbbase:ExternalResources>
+		<pbbase:ExternalResource MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="ccs_mixed.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-160617_173143382" UniqueId="215e028c-03aa-4b23-a7a1-1f0a1a4044a2">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="ccs_mixed.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-160617_173143383" UniqueId="1330fc73-8756-4230-a0e7-fa079dc5fe36"/>
+				<pbbase:FileIndex MetaType="PacBio.Index.BamIndex" ResourceId="ccs_mixed.bam.bai" TimeStampedName="pacbio_index_bamindex-160617_173143383" UniqueId="6d6886fb-2544-4c47-9c48-07bf5f305ccc"/>
+			</pbbase:FileIndices>
+		</pbbase:ExternalResource>
+	</pbbase:ExternalResources>
+	<DataSetMetadata>
+		<TotalLength>0</TotalLength>
+		<NumRecords>2</NumRecords>
+	</DataSetMetadata>
+</ConsensusReadSet>
