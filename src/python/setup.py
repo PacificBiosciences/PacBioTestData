@@ -1,6 +1,7 @@
 
 import shutil
 import os.path
+import json
 import sys
 
 try:
@@ -8,7 +9,9 @@ try:
 except ImportError:
     from distutils.core import setup
 
-version = __import__('pbtestdata').get_version()
+version = json.load(open(os.path.join("..", "..", "version.json")))["version"]
+with open(os.path.join("pbtestdata", "version.py"), "w") as version_py:
+    version_py.write("VERSION = \"{v}\"".format(v=version))
 
 DATA = os.path.join("pbtestdata", "data")
 

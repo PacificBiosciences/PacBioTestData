@@ -12,7 +12,8 @@ import re
 import os.path as op
 import sys
 
-VERSION = (0,0,1)
+import version
+
 RAW_DICTS = None
 DATA_DICT = None
 
@@ -91,7 +92,7 @@ def show_all(verbose=False):
 
 
 def main(argv=sys.argv):
-    p = argparse.ArgumentParser(description=__doc__, version=VERSION)
+    p = argparse.ArgumentParser(description=__doc__, version=version.VERSION)
     sp = p.add_subparsers(dest="command")
     p1 = sp.add_parser("show")
     p1.add_argument("--verbose", action="store_true")
