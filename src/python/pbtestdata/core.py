@@ -31,10 +31,14 @@ def _load_data():
 def get_file(id_):
     d = _load_data()
     try:
-        return pkg_resources.resource_filename("pbtestdata",
+        file_name = pkg_resources.resource_filename("pbtestdata",
             op.join("data", d[id_]['path']))
     except KeyError:
-        raise KeyError("No data file with ID '{i}' exists".format(i=id_))
+        raise KeyError("No data file with ID '{i}' is available".format(i=id_))
+    else:
+        if not op.isfile(file_name):
+            raise IOError("The data file {f} does not exist.".format(f=file_name))
+        return file_name
 
 
 def validate():
