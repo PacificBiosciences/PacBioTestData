@@ -1,0 +1,106 @@
+##gff-version 3
+##date 2016-02-10T14:51:19
+##source PACBIO_AlignmentSummary 1.0
+##source-commandline summarize_coverage.py --resolved-tool-contract resolved-tool-contract.json
+##sequence-header lambda_NEB3011 lambda_NEB3011
+##sequence-region lambda_NEB3011 1 48502
+##source GenomicConsensus 2.0.0
+##pacbio-alignment-summary-version 0.6
+##source-commandline /pbi/dept/secondary/builds/3.0.4/smrtanalysis/prebuilt/linux/x86-64/libc-2.5/gcc-4.8.4/ubuntu-1404/173065/smrtanalysis_3.0.4.173065.installdir/private/pacbio/pythonpkgs/GenomicConsensus/binwrap/../../../../../private/pacbio/pythonpkgs/GenomicConsensus/bin/summarizeConsensus --resolved-tool-contract resolved-tool-contract.json
+lambda_NEB3011	.	region	1	500	0.00	+	.	cov=49,91,101;cov2=90.502,6.470;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	501	1000	0.00	+	.	cov=100,127,151;cov2=122.438,17.046;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	1001	1500	0.00	+	.	cov=127,160,209;cov2=171.850,23.623;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	1501	2000	0.00	+	.	cov=185,265,350;cov2=274.568,38.682;gaps=0,0;cQv=20,20,20;del=0;ins=1;sub=0
+lambda_NEB3011	.	region	2001	2500	0.00	+	.	cov=308,364,455;cov2=372.406,37.221;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	2501	3000	0.00	+	.	cov=320,353,446;cov2=360.066,35.763;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	3001	3500	0.00	+	.	cov=180,246,330;cov2=253.032,38.331;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	3501	4000	0.00	+	.	cov=195,225,316;cov2=233.552,33.991;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	4001	4500	0.00	+	.	cov=157,216,319;cov2=217.900,36.644;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	4501	5000	0.00	+	.	cov=169,258,317;cov2=256.412,50.398;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	5001	5500	0.00	+	.	cov=161,213,280;cov2=224.480,33.049;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	5501	6000	0.00	+	.	cov=268,328,385;cov2=328.710,33.056;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	6001	6500	0.00	+	.	cov=286,402,435;cov2=386.484,43.509;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	6501	7000	0.00	+	.	cov=217,269,321;cov2=270.580,29.099;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	7001	7500	0.00	+	.	cov=245,312,380;cov2=315.726,32.046;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	7501	8000	0.00	+	.	cov=176,218,271;cov2=229.116,31.685;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	8001	8500	0.00	+	.	cov=151,202,256;cov2=202.208,28.555;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	8501	9000	0.00	+	.	cov=204,236,268;cov2=231.834,16.947;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	9001	9500	0.00	+	.	cov=269,338,365;cov2=327.368,25.019;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=1
+lambda_NEB3011	.	region	9501	10000	0.00	+	.	cov=243,322,380;cov2=316.668,28.057;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	10001	10500	0.00	+	.	cov=179,246,317;cov2=240.464,46.679;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	10501	11000	0.00	+	.	cov=146,198,243;cov2=191.940,21.456;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	11001	11500	0.00	+	.	cov=218,252,279;cov2=249.698,16.401;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	11501	12000	0.00	+	.	cov=242,272,295;cov2=274.188,14.782;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	12001	12500	0.00	+	.	cov=227,259,311;cov2=257.820,19.488;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	12501	13000	0.00	+	.	cov=225,260,297;cov2=260.748,20.330;gaps=0,0;cQv=20,20,20;del=0;ins=1;sub=0
+lambda_NEB3011	.	region	13001	13500	0.00	+	.	cov=171,240,297;cov2=241.808,36.791;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	13501	14000	0.00	+	.	cov=180,233,273;cov2=233.436,24.094;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	14001	14500	0.00	+	.	cov=208,252,333;cov2=255.078,23.409;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	14501	15000	0.00	+	.	cov=196,289,341;cov2=279.358,42.049;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	15001	15500	0.00	+	.	cov=197,297,326;cov2=276.706,43.330;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	15501	16000	0.00	+	.	cov=182,240,290;cov2=242.270,35.844;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	16001	16500	0.00	+	.	cov=190,224,271;cov2=227.482,19.057;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	16501	17000	0.00	+	.	cov=267,314,372;cov2=311.484,26.776;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	17001	17500	0.00	+	.	cov=291,332,390;cov2=337.172,27.122;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	17501	18000	0.00	+	.	cov=268,346,382;cov2=336.360,30.927;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	18001	18500	0.00	+	.	cov=291,322,361;cov2=326.836,19.506;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	18501	19000	0.00	+	.	cov=261,289,323;cov2=284.620,17.287;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	19001	19500	0.00	+	.	cov=181,227,332;cov2=247.282,47.914;gaps=0,0;cQv=20,20,20;del=1;ins=0;sub=0
+lambda_NEB3011	.	region	19501	20000	0.00	+	.	cov=219,281,304;cov2=271.088,22.547;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	20001	20500	0.00	+	.	cov=280,339,394;cov2=330.854,34.915;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	20501	21000	0.00	+	.	cov=342,372,432;cov2=383.126,30.093;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	21001	21500	0.00	+	.	cov=168,284,424;cov2=276.126,73.598;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	21501	22000	0.00	+	.	cov=128,150,202;cov2=154.580,19.151;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	22001	22500	0.00	+	.	cov=134,170,177;cov2=163.336,13.015;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	22501	23000	0.00	+	.	cov=169,229,304;cov2=233.472,43.275;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	23001	23500	0.00	+	.	cov=283,364,388;cov2=344.762,39.062;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	23501	24000	0.00	+	.	cov=205,246,330;cov2=253.078,42.092;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	24001	24500	0.00	+	.	cov=249,322,368;cov2=323.258,26.928;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	24501	25000	0.00	+	.	cov=279,326,370;cov2=331.720,21.054;gaps=0,0;cQv=20,20,20;del=0;ins=1;sub=0
+lambda_NEB3011	.	region	25001	25500	0.00	+	.	cov=220,279,462;cov2=323.392,79.100;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	25501	26000	0.00	+	.	cov=369,488,552;cov2=475.902,52.870;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	26001	26500	0.00	+	.	cov=221,268,368;cov2=268.544,28.232;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	26501	27000	0.00	+	.	cov=247,304,506;cov2=343.504,80.233;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	27001	27500	0.00	+	.	cov=485,577,622;cov2=566.380,32.134;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	27501	28000	0.00	+	.	cov=427,480,618;cov2=508.008,60.657;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	28001	28500	0.00	+	.	cov=317,359,444;cov2=363.154,23.458;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	28501	29000	0.00	+	.	cov=230,357,389;cov2=330.050,53.604;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	29001	29500	0.00	+	.	cov=241,273,351;cov2=273.834,23.984;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	29501	30000	0.00	+	.	cov=213,248,352;cov2=260.496,37.641;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	30001	30500	0.00	+	.	cov=256,312,353;cov2=305.746,30.544;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	30501	31000	0.00	+	.	cov=203,280,344;cov2=278.232,28.766;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	31001	31500	0.00	+	.	cov=186,236,243;cov2=226.550,17.669;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	31501	32000	0.00	+	.	cov=151,262,287;cov2=239.110,42.423;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	32001	32500	0.00	+	.	cov=127,186,198;cov2=176.916,20.022;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	32501	33000	0.00	+	.	cov=191,322,347;cov2=288.392,55.792;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	33001	33500	0.00	+	.	cov=141,281,328;cov2=247.040,64.494;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	33501	34000	0.00	+	.	cov=176,256,363;cov2=255.372,61.858;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	34001	34500	0.00	+	.	cov=254,335,401;cov2=324.832,48.078;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	34501	35000	0.00	+	.	cov=174,241,296;cov2=242.956,25.408;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	35001	35500	0.00	+	.	cov=295,402,464;cov2=390.042,53.516;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	35501	36000	0.00	+	.	cov=404,482,555;cov2=481.176,51.538;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	36001	36500	0.00	+	.	cov=295,366,418;cov2=363.634,28.498;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	36501	37000	0.00	+	.	cov=307,380,425;cov2=374.140,32.156;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	37001	37500	0.00	+	.	cov=187,261,344;cov2=249.096,48.607;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	37501	38000	0.00	+	.	cov=169,209,337;cov2=226.880,43.702;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	38001	38500	0.00	+	.	cov=238,321,339;cov2=307.618,27.202;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	38501	39000	0.00	+	.	cov=230,276,306;cov2=275.444,19.108;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	39001	39500	0.00	+	.	cov=193,267,278;cov2=255.792,22.974;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	39501	40000	0.00	+	.	cov=169,204,246;cov2=202.452,22.566;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	40001	40500	0.00	+	.	cov=193,262,289;cov2=247.608,35.968;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	40501	41000	0.00	+	.	cov=273,298,368;cov2=312.362,29.436;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	41001	41500	0.00	+	.	cov=275,320,354;cov2=314.668,28.350;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	41501	42000	0.00	+	.	cov=289,326,399;cov2=336.002,29.788;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	42001	42500	0.00	+	.	cov=368,410,516;cov2=431.598,48.413;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	42501	43000	0.00	+	.	cov=333,423,557;cov2=439.252,61.237;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	43001	43500	0.00	+	.	cov=253,293,372;cov2=297.768,24.497;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	43501	44000	0.00	+	.	cov=234,256,349;cov2=267.674,34.289;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	44001	44500	0.00	+	.	cov=130,207,242;cov2=199.206,31.665;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	44501	45000	0.00	+	.	cov=163,203,264;cov2=206.454,23.094;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	45001	45500	0.00	+	.	cov=177,199,235;cov2=205.556,16.965;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	45501	46000	0.00	+	.	cov=168,219,283;cov2=230.132,25.942;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	46001	46500	0.00	+	.	cov=251,335,411;cov2=331.218,53.726;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	46501	47000	0.00	+	.	cov=267,376,422;cov2=363.474,38.282;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	47001	47500	0.00	+	.	cov=240,268,354;cov2=274.806,30.188;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	47501	48000	0.00	+	.	cov=88,145,243;cov2=173.026,54.269;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0
+lambda_NEB3011	.	region	48001	48502	0.00	+	.	cov=20,54,88;cov2=58.958,10.589;gaps=0,0;cQv=20,20,20;del=0;ins=0;sub=0

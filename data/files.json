@@ -52,5 +52,23 @@
     "description": "Barcoded SubreadSet",
     "path": "SubreadSet/barcoded.subreadset.xml",
     "filetype": "PacBio.DataSet.SubreadSet"
+  },
+  {
+    "id": "barcodeset",
+    "description": "BarcodeSet XML",
+    "path": "BarcodeSet/example_barcodes.barcodeset.xml",
+    "filetype": "PacBio.DataSet.BarcodeSet"
+  },
+  {
+    "id": "alignment-summary-gff",
+    "description": "Alignment summary GFF from resequencing reports",
+    "path": "GFF/alignment_summary.gff",
+    "filetype": "PacBio.FileTypes.gff"
+  },
+  {
+    "id": "variants-gff",
+    "description": "Variants GFF from GenomicConsensus/Quiver",
+    "path": "GFF/variants.gff",
+    "filetype": "PacBio.FileTypes.gff"
   }
 ]
