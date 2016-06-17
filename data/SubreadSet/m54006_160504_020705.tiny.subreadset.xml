@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SubreadSet CreatedAt="2016-06-13T16:26:20" MetaType="PacBio.DataSet.SubreadSet" Name="pacbio_dataset_subreadset-160613_232620602" Tags="" TimeStampedName="pacbio_dataset_subreadset-160613_232620602" UniqueId="c9074f64-37e0-d795-9b8e-7190ac6f87a5" Version="3.0.1" xmlns="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:ns4="http://pacificbiosciences.com/PacBioReagentKit.xsd" xmlns:pbbase="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" xmlns:pbmeta="http://pacificbiosciences.com/PacBioCollectionMetadata.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pacificbiosciences.com/PacBioDataModel.xsd">
 	<pbbase:ExternalResources>
-		<pbbase:ExternalResource MetaType="PacBio.SubreadFile.SubreadBamFile" ResourceId="/home/nechols/src/PacBioTestData/data/SubreadSet/m54006_160504_020705.tiny.subreads.bam" TimeStampedName="pacbio_subreadfile_subreadbamfile-160613_232620601" UniqueId="b5412e74-6eb4-4a63-bd82-731c87fe0122">
+		<pbbase:ExternalResource MetaType="PacBio.SubreadFile.SubreadBamFile" ResourceId="m54006_160504_020705.tiny.subreads.bam" TimeStampedName="pacbio_subreadfile_subreadbamfile-160613_232620601" UniqueId="b5412e74-6eb4-4a63-bd82-731c87fe0122">
 			<pbbase:FileIndices>
-				<pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="/home/nechols/src/PacBioTestData/data/SubreadSet/m54006_160504_020705.tiny.subreads.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-160613_232620601" UniqueId="d356c436-892d-4199-b946-0f4fbdb834da"/>
+				<pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="m54006_160504_020705.tiny.subreads.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-160613_232620601" UniqueId="d356c436-892d-4199-b946-0f4fbdb834da"/>
 			</pbbase:FileIndices>
 			<pbbase:ExternalResources>
-				<pbbase:ExternalResource MetaType="PacBio.SubreadFile.ScrapsBamFile" ResourceId="/home/nechols/src/PacBioTestData/data/SubreadSet/m54006_160504_020705.tiny.scraps.bam" TimeStampedName="pacbio_subreadfile_scrapsbamfile-160613_232620601" UniqueId="824fa041-e354-4fc2-9669-ae6ae54a80fc">
+				<pbbase:ExternalResource MetaType="PacBio.SubreadFile.ScrapsBamFile" ResourceId="m54006_160504_020705.tiny.scraps.bam" TimeStampedName="pacbio_subreadfile_scrapsbamfile-160613_232620601" UniqueId="824fa041-e354-4fc2-9669-ae6ae54a80fc">
 					<pbbase:FileIndices>
-						<pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="/home/nechols/src/PacBioTestData/data/SubreadSet/m54006_160504_020705.tiny.scraps.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-160504_063727354" UniqueId="cc0d00fe-07da-4a6b-bf42-746d3fde43ea" Version="3.0.1"/>
+						<pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="m54006_160504_020705.tiny.scraps.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-160504_063727354" UniqueId="cc0d00fe-07da-4a6b-bf42-746d3fde43ea" Version="3.0.1"/>
 					</pbbase:FileIndices>
 				</pbbase:ExternalResource>
-				<pbbase:ExternalResource Description="Points to the summary sts.xml file." MetaType="PacBio.SubreadFile.ChipStatsFile" Name="Chipstats XML" ResourceId="/home/nechols/src/PacBioTestData/data/SubreadSet/m54006_160504_020705.sts.xml" TimeStampedName="pacbio_subreadfile_chipstatsfile-160504_063727355" UniqueId="60051785-dbc1-4760-a117-b67d50f105bd" Version="3.0.1"/>
+				<pbbase:ExternalResource Description="Points to the summary sts.xml file." MetaType="PacBio.SubreadFile.ChipStatsFile" Name="Chipstats XML" ResourceId="m54006_160504_020705.sts.xml" TimeStampedName="pacbio_subreadfile_chipstatsfile-160504_063727355" UniqueId="60051785-dbc1-4760-a117-b67d50f105bd" Version="3.0.1"/>
 			</pbbase:ExternalResources>
 		</pbbase:ExternalResource>
 	</pbbase:ExternalResources>
