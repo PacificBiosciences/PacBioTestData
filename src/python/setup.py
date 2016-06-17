@@ -38,4 +38,5 @@ setup(
     packages=find_packages(),
     package_data={"pbtestdata": package_data},
     include_package_data=True,
-    entry_points={"console_scripts": ["pbdata = pbtestdata.core:main"]})
+    entry_points={"console_scripts": ["pbdata = pbtestdata.core:main"]},
+    zip_safe=False)
