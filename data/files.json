@@ -54,6 +54,12 @@
     "filetype": "PacBio.DataSet.SubreadSet"
   },
   {
+    "id": "barcoded-subreads-bam",
+    "description": "Barcoded subreads BAM file",
+    "path": "SubreadSet/barcoded.subreads.bam",
+    "filetype": "PacBio.SubreadFile.SubreadBamFile"
+  },
+  {
     "id": "barcodeset",
     "description": "BarcodeSet XML",
     "path": "BarcodeSet/example_barcodes.barcodeset.xml",
