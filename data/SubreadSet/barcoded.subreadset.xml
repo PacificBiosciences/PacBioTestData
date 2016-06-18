@@ -11,6 +11,7 @@
             <pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="barcoded.scraps.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-160219_060028519" UniqueId="77ecadb3-e2b0-48b4-80ca-3de1e87b339d" Version="3.0.1" />
           </pbbase:FileIndices>
         </pbbase:ExternalResource>
+        <pbbase:ExternalResource Description="BarcodeSet" MetaType="PacBio.DataSet.BarcodeSet" Name="barcodeset" ResourceId="../BarcodeSet/example_barcodes.barcodeset.xml" UniqueId="afa1b6fd-6a44-50d8-838f-cb9d485ce9da"/>
       </pbbase:ExternalResources>
 		</pbbase:ExternalResource>
 	</pbbase:ExternalResources>

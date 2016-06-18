@@ -78,6 +78,12 @@
     "filetype": "PacBio.FileTypes.gff"
   },
   {
+    "id": "consensus-summary-gff",
+    "description": "Expanded alignment summary GFF with consensus calling annotations",
+    "path": "GFF/alignment_summary_consensus.gff",
+    "filetype": "PacBio.FileTypes.gff"
+  },
+  {
     "id": "rsii-ccs-aligned",
     "description": "ConsensusAlignmentSet of RSII lambda data",
     "path": "ConsensusAlignmentSet/mapped.consensusalignmentset.xml",
