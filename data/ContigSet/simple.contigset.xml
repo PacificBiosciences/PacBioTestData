@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContigSet CreatedAt="2016-06-24T17:52:57" MetaType="PacBio.DataSet.ContigSet" Name="simple_contigs" Tags="" TimeStampedName="pacbio_dataset_contigset-160625_005257667" UniqueId="0ef5ddf7-6a61-45b5-81e8-939e5ae06996" Version="3.0.1" xmlns="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:pbbase="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pacificbiosciences.com/PacBioDataModel.xsd">
+	<pbbase:ExternalResources>
+		<pbbase:ExternalResource MetaType="PacBio.ContigFile.ContigFastaFile" ResourceId="simple.fasta" TimeStampedName="pacbio_contigfile_contigfastafile-160625_005257666" UniqueId="49d53821-9aac-4b54-b384-7bfb686dd821">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex MetaType="PacBio.Index.SamIndex" ResourceId="simple.fasta.fai" TimeStampedName="pacbio_index_samindex-160625_005257666" UniqueId="92718de9-80ce-48b5-9319-0bb76e36f927"/>
+			</pbbase:FileIndices>
+		</pbbase:ExternalResource>
+	</pbbase:ExternalResources>
+	<DataSetMetadata>
+		<TotalLength>56</TotalLength>
+		<NumRecords>2</NumRecords>
+		<Organism/>
+		<Ploidy/>
+		<Contigs>
+			<Contig Description="very minimal example of a multi-contig FASTA file" Digest="DEPRECATED" Length="28" Name="chr1"/>
+			<Contig Description="note that GenomicConsensus may output mixed case" Digest="DEPRECATED" Length="28" Name="chr2"/>
+		</Contigs>
+	</DataSetMetadata>
+</ContigSet>
