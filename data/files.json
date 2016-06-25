@@ -130,5 +130,11 @@
     "description": "RSII bax.h5 file",
     "path": "HdfSubreadSet/m140912_020930_00114_c100702482550000001823141103261590_s1_p0.1.bax.h5",
     "filetype": "PacBio.SubreadFile.BaxFile"
+  },
+  {
+    "id": "contigset",
+    "description": "Minimal mock ContigSet",
+    "path": "ContigSet/simple.contigset.xml",
+    "filetype": "PacBio.DataSet.ContigSet"
   }
 ]
