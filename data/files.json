@@ -136,5 +136,11 @@
     "description": "Minimal mock ContigSet",
     "path": "ContigSet/simple.contigset.xml",
     "filetype": "PacBio.DataSet.ContigSet"
+  },
+  {
+    "id": "ccs-barcoded",
+    "description": "Barcoded ConsensusReadSet",
+    "path": "ConsensusReadSet/barcoded.consensusreadset.xml",
+    "filetype": "PacBio.DataSet.ConsensusReadSet"
   }
 ]

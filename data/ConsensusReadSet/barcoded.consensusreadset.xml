@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConsensusReadSet CreatedAt="2016-06-29T05:36:27" MetaType="PacBio.DataSet.ConsensusReadSet" Name="ccs-barcoded" Tags="" TimeStampedName="pacbio_dataset_consensusreadset-160629_123627937" UniqueId="6bdaaeb8-2d8f-aa27-a4b0-82db7d227d9d" Version="3.0.1" xmlns="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:pbbase="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pacificbiosciences.com/PacBioDataModel.xsd">
+	<pbbase:ExternalResources>
+		<pbbase:ExternalResource MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="barcoded.ccs.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-160629_123636057" UniqueId="10a378d7-634a-4212-bdd8-9154483025dd">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="barcoded.ccs.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-160629_123636057" UniqueId="486f486b-7b8b-4dd4-9923-cc5d62e803c1"/>
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource MetaType="PacBio.DataSet.BarcodeSet" ResourceId="../BarcodeSet/example_barcodes.barcodeset.xml" TimeStampedName="PacBio.DataSet.BarcodeSet-160629_123636" UniqueId="1b186027-27c0-4dc6-9652-f35b92d85561"/>
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+	</pbbase:ExternalResources>
+	<DataSetMetadata>
+		<TotalLength>0</TotalLength>
+		<NumRecords>2</NumRecords>
+	</DataSetMetadata>
+</ConsensusReadSet>
