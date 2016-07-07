@@ -142,5 +142,11 @@
     "description": "Barcoded ConsensusReadSet",
     "path": "ConsensusReadSet/barcoded.consensusreadset.xml",
     "filetype": "PacBio.DataSet.ConsensusReadSet"
+  },
+  {
+    "id": "aligned-ds-2",
+    "description": "Chunked AlignmentSet",
+    "path": "AlignmentSet/m54006_160504_020705.alignmentset.xml",
+    "filetype": "PacBio.DataSet.AlignmentSet"
   }
 ]
