@@ -12,6 +12,12 @@
     "filetype": "PacBio.DataSet.SubreadSet"
   },
   {
+    "id": "subreads-filtered",
+    "description": "SubreadSet with readQual filter",
+    "path": "SubreadSet/m140905_042212_sidney_c100564852550000001823085912221377_s1_X0_filtered.subreadset.xml",
+    "filetype": "PacBio.DataSet.SubreadSet"
+  },
+  {
     "id": "stats-xml",
     "description": "XML of primary analysis statistics",
     "path": "SubreadSet/m54006_160504_020705.sts.xml",
