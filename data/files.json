@@ -154,5 +154,17 @@
     "description": "Chunked AlignmentSet",
     "path": "AlignmentSet/m54006_160504_020705.alignmentset.xml",
     "filetype": "PacBio.DataSet.AlignmentSet"
+  },
+  {
+    "id": "internal-subreads",
+    "description": "SubreadSet with PacBio Internal BAM file",
+    "path": "SubreadSet/m54075_160703_015941.subreadset.xml",
+    "filetype": "PacBio.DataSet.SubreadSet"
+  },
+  {
+    "id": "aligned-internal-subreads",
+    "description": "AlignmentSet from PacBio Internal BAM file",
+    "path": "AlignmentSet/m54075_160703_015941.alignmentset.xml",
+    "filetype": "PacBio.DataSet.AlignmentSet"
   }
 ]
