@@ -42,3 +42,24 @@ Or use the command-line tool:
   $ pbtestdata get subreads-bam
   /path/to/movie.subreads.bam
 ```
+
+Adding data
+-----------
+
+This repo should only be used for relatively compact (< 100KB), commonly used
+files in officially supported formats.  When adding files, please follow these
+guidelines:
+
+  - Any file that needs to be accessed directly should have an entry in
+    `data/files.json`.  This should *not* include index files; however in some
+    cases both the DataSet XML and the underlying BAM or FASTA files may be
+    retrievable.
+  - Accessor IDs should be simple and hyphen-separated; see `data/files.json`
+    for examples.
+  - All BAM, FASTA, and DataSet XML files should be compliant with the PacBio
+    file format specifications; use `pbvalidate` to check compliance.
+  - PacBio DataSet XML should always be generated with relative paths.
+  - The dataset name should match the accessor ID in `files.json`.
+  - BAM files should always have an accompanying PacBio index (.pbi file).
+  - BAM indices created by samtools (.bai files) are optional.
+  - FASTA files should always have an accompanying .fai index (from samtools).
