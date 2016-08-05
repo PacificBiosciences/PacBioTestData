@@ -134,8 +134,14 @@
   {
     "id": "rsii-bax-h5",
     "description": "RSII bax.h5 file",
-    "path": "HdfSubreadSet/m140912_020930_00114_c100702482550000001823141103261590_s1_p0.1.bax.h5",
+    "path": "HdfSubreadSet/Analysis_Results/m140912_020930_00114_c100702482550000001823141103261590_s1_p0.1.bax.h5",
     "fileTypeId": "PacBio.SubreadFile.BaxFile"
+  },
+  {
+    "id": "rs-movie-metadata",
+    "description": "RSII movie metadata",
+    "path": "HdfSubreadSet/m140912_020930_00114_c100702482550000001823141103261590_s1_p0.metadata.xml",
+    "fileTypeId": "PacBio.FileTypes.Xml"
   },
   {
     "id": "contigset",
