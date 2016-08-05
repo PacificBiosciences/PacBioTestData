@@ -18,13 +18,17 @@ RAW_DICTS = None
 DATA_DICT = None
 
 
+def get_path():
+    return pkg_resources.resource_filename("pbtestdata", "data/files.json")
+
+
 def _load_data():
     global DATA_DICT
     global RAW_DICTS
     if DATA_DICT is None:
-        RAW_DICTS = json.loads(pkg_resources.resource_string("pbtestdata",
-                                                             "data/files.json"))
-        DATA_DICT = {f["id"]:f for f in RAW_DICTS}
+        with open(get_path()) as files_json:
+            RAW_DICTS = json.load(files_json)
+        DATA_DICT = {f["id"]: f for f in RAW_DICTS}
     return DATA_DICT
 
 
@@ -32,12 +36,13 @@ def get_file(id_):
     d = _load_data()
     try:
         file_name = pkg_resources.resource_filename("pbtestdata",
-            op.join("data", d[id_]['path']))
+                                                    op.join("data", d[id_]['path']))
     except KeyError:
         raise KeyError("No data file with ID '{i}' is available".format(i=id_))
     else:
         if not op.isfile(file_name):
-            raise IOError("The data file {f} does not exist.".format(f=file_name))
+            raise IOError(
+                "The data file {f} does not exist.".format(f=file_name))
         return file_name
 
 
@@ -48,17 +53,18 @@ def validate():
     have_files = set()
     for f in RAW_DICTS:
         file_path = pkg_resources.resource_filename("pbtestdata",
-            op.join("data", f['path']))
+                                                    op.join("data", f['path']))
         if f['id'] in have_keys:
             raise KeyError("ID '{i}' occurs more than once".format(i=f['id']))
         elif re.search("[^0-9A-Za-z_-]{1,}", f['id']):
-            raise ValueError("ID '{i}' contains non-alphanumeric characters".format(i=f['id']))
+            raise ValueError(
+                "ID '{i}' contains non-alphanumeric characters".format(i=f['id']))
         elif f['path'] in have_files:
             raise ValueError("Path '{p}' occurs more than once".format(
                              p=f['path']))
         elif not op.exists(file_path):
             raise OSError("The path {p} does not exist".format(p=f['path']))
-        elif not "description" in f or not "filetype" in f:
+        elif not "description" in f or not "fileTypeId" in f:
             raise ValueError(
                 "File {i} is missing description or filetype".format(i=f['id']))
         have_keys.add(f['id'])
@@ -71,8 +77,9 @@ def show_all(verbose=False):
     d = _load_data()
     by_type = defaultdict(list)
     for f in RAW_DICTS:
-        by_type[f['filetype']].append(f)
+        by_type[f['fileTypeId']].append(f)
     filetypes = sorted(by_type.keys())
+
     def _show_files_by_type(file_type):
         file_ids = sorted([f['id'] for f in by_type[file_type]])
         if not verbose:
@@ -103,6 +110,7 @@ def main(argv=sys.argv):
     p2 = sp.add_parser("get")
     p2.add_argument("file_id")
     p3 = sp.add_parser("validate")
+    p4 = sp.add_parser("path")
     args = p.parse_args(argv[1:])
     if args.command == "show":
         return show_all(args.verbose)
@@ -110,6 +118,9 @@ def main(argv=sys.argv):
         return validate()
     elif args.command == "get":
         print get_file(args.file_id)
+        return 0
+    elif args.command == "path":
+        print get_path()
         return 0
     else:
         raise ValueError("Unrecognized command '{c}'".format(c=args.command))

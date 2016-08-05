@@ -3,168 +3,168 @@
     "id": "subreads-xml",
     "description": "SubreadSet with RSII lambda data",
     "path": "SubreadSet/m140905_042212_sidney_c100564852550000001823085912221377_s1_X0.subreadset.xml",
-    "filetype": "PacBio.DataSet.SubreadSet"
+    "fileTypeId": "PacBio.DataSet.SubreadSet"
   },
   {
     "id": "subreads-sequel",
     "description": "SubreadSet with Sequel data and sts.xml",
     "path": "SubreadSet/m54006_160504_020705.tiny.subreadset.xml",
-    "filetype": "PacBio.DataSet.SubreadSet"
+    "fileTypeId": "PacBio.DataSet.SubreadSet"
   },
   {
     "id": "subreads-filtered",
     "description": "SubreadSet with readQual filter",
     "path": "SubreadSet/m140905_042212_sidney_c100564852550000001823085912221377_s1_X0_filtered.subreadset.xml",
-    "filetype": "PacBio.DataSet.SubreadSet"
+    "fileTypeId": "PacBio.DataSet.SubreadSet"
   },
   {
     "id": "stats-xml",
     "description": "XML of primary analysis statistics",
     "path": "SubreadSet/m54006_160504_020705.sts.xml",
-    "filetype": "PacBio.SubreadFile.ChipStatsFile"
+    "fileTypeId": "PacBio.SubreadFile.ChipStatsFile"
   },
   {
     "id": "aligned-xml",
     "description": "AlignmentSet with RSII lambda data",
     "path": "AlignmentSet/m140905_042212_sidney_c100564852550000001823085912221377_s1_X0.alignmentset.xml",
-    "filetype": "PacBio.DataSet.AlignmentSet"
+    "fileTypeId": "PacBio.DataSet.AlignmentSet"
   },
   {
     "id": "lambdaNEB",
     "description": "Lambda virus ReferenceSet",
     "path": "ReferenceSet/lambdaNEB/referenceset.xml",
-    "filetype": "PacBio.DataSet.ReferenceSet"
+    "fileTypeId": "PacBio.DataSet.ReferenceSet"
   },
   {
     "id": "subreads-bam",
     "description": "BAM file with unmapped RSII subreads",
     "path": "SubreadSet/m140905_042212_sidney_c100564852550000001823085912221377_s1_X0.subreads.bam",
-    "filetype": "PacBio.SubreadFile.SubreadBamFile"
+    "fileTypeId": "PacBio.SubreadFile.SubreadBamFile"
   },
   {
     "id": "aligned-bam",
     "description": "RSII BAM file mapped to lambda reference",
     "path": "AlignmentSet/m140905_042212_sidney_c100564852550000001823085912221377_s1_X0.aligned_subreads.bam",
-    "filetype": "PacBio.AlignmentFile.AlignmentBamFile"
+    "fileTypeId": "PacBio.AlignmentFile.AlignmentBamFile"
   },
   {
     "id": "lambda-fasta",
     "description": "Lambda virus genome FASTA",
     "path": "ReferenceSet/lambdaNEB/sequence/lambdaNEB.fasta",
-    "filetype": "PacBio.FileTypes.Fasta"
+    "fileTypeId": "PacBio.FileTypes.Fasta"
   },
   {
     "id": "cmph5",
     "description": "Aligned RSII sequences in legacy cmp.h5 format",
     "path": "legacy/m140905_042212_sidney_c100564852550000001823085912221377_s1_X0.aligned_subreads.cmp.h5",
-    "filetype": "PacBio.FileTypes.alignment_cmp_h5"
+    "fileTypeId": "PacBio.FileTypes.alignment_cmp_h5"
   },
   {
     "id": "barcoded-subreadset",
     "description": "Barcoded SubreadSet",
     "path": "SubreadSet/barcoded.subreadset.xml",
-    "filetype": "PacBio.DataSet.SubreadSet"
+    "fileTypeId": "PacBio.DataSet.SubreadSet"
   },
   {
     "id": "barcoded-subreads-bam",
     "description": "Barcoded subreads BAM file",
     "path": "SubreadSet/barcoded.subreads.bam",
-    "filetype": "PacBio.SubreadFile.SubreadBamFile"
+    "fileTypeId": "PacBio.SubreadFile.SubreadBamFile"
   },
   {
     "id": "barcodeset",
     "description": "BarcodeSet XML",
     "path": "BarcodeSet/example_barcodes.barcodeset.xml",
-    "filetype": "PacBio.DataSet.BarcodeSet"
+    "fileTypeId": "PacBio.DataSet.BarcodeSet"
   },
   {
     "id": "alignment-summary-gff",
     "description": "Alignment summary GFF from resequencing reports",
     "path": "GFF/alignment_summary.gff",
-    "filetype": "PacBio.FileTypes.gff"
+    "fileTypeId": "PacBio.FileTypes.gff"
   },
   {
     "id": "variants-gff",
     "description": "Variants GFF from GenomicConsensus/Quiver",
     "path": "GFF/variants.gff",
-    "filetype": "PacBio.FileTypes.gff"
+    "fileTypeId": "PacBio.FileTypes.gff"
   },
   {
     "id": "consensus-summary-gff",
     "description": "Expanded alignment summary GFF with consensus calling annotations",
     "path": "GFF/alignment_summary_consensus.gff",
-    "filetype": "PacBio.FileTypes.gff"
+    "fileTypeId": "PacBio.FileTypes.gff"
   },
   {
     "id": "rsii-ccs-aligned",
     "description": "ConsensusAlignmentSet of RSII lambda data",
     "path": "ConsensusAlignmentSet/mapped.consensusalignmentset.xml",
-    "filetype": "PacBio.DataSet.ConsensusAlignmentSet"
+    "fileTypeId": "PacBio.DataSet.ConsensusAlignmentSet"
   },
   {
     "id": "ccs-bam-aligned",
     "description": "Mapped CCS BAM file",
     "path": "ConsensusAlignmentSet/mapped.consensusalignmentset.bam",
-    "filetype": "PacBio.AlignmentFile.ConsensusAlignmentBamFile"
+    "fileTypeId": "PacBio.AlignmentFile.ConsensusAlignmentBamFile"
   },
   {
     "id": "rsii-ccs",
     "description": "ConsensusReadSet of RSII lambda data",
     "path": "ConsensusReadSet/m130727_114215_42211_c100569412550000001823090301191423_s1_p0.consensusreadset.xml",
-    "filetype": "PacBio.DataSet.ConsensusReadSet"
+    "fileTypeId": "PacBio.DataSet.ConsensusReadSet"
   },
   {
     "id": "ccs-bam",
     "description": "CCS BAM file",
     "path": "ConsensusReadSet/m130727_114215_42211_c100569412550000001823090301191423_s1_p0.ccs.bam",
-    "filetype": "PacBio.ConsensusReadFile.ConsensusReadBamFile"
+    "fileTypeId": "PacBio.ConsensusReadFile.ConsensusReadBamFile"
   },
   {
     "id": "rsii-ccs-multi-cell",
     "description": "ConsensusReadSet from multiple RSII cells",
     "path": "ConsensusReadSet/ccs_mixed.consensusreadset.xml",
-    "filetype": "PacBio.DataSet.ConsensusReadSet"
+    "fileTypeId": "PacBio.DataSet.ConsensusReadSet"
   },
   {
     "id": "hdfsubreads",
     "description": "HdfSubreadSet of RSII data",
     "path": "HdfSubreadSet/m140912_020930_00114_c100702482550000001823141103261590_s1_p0.all.hdfsubreadset.xml",
-    "filetype": "PacBio.DataSet.HdfSubreadSet"
+    "fileTypeId": "PacBio.DataSet.HdfSubreadSet"
   },
   {
     "id": "rsii-bax-h5",
     "description": "RSII bax.h5 file",
     "path": "HdfSubreadSet/m140912_020930_00114_c100702482550000001823141103261590_s1_p0.1.bax.h5",
-    "filetype": "PacBio.SubreadFile.BaxFile"
+    "fileTypeId": "PacBio.SubreadFile.BaxFile"
   },
   {
     "id": "contigset",
     "description": "Minimal mock ContigSet",
     "path": "ContigSet/simple.contigset.xml",
-    "filetype": "PacBio.DataSet.ContigSet"
+    "fileTypeId": "PacBio.DataSet.ContigSet"
   },
   {
     "id": "ccs-barcoded",
     "description": "Barcoded ConsensusReadSet",
     "path": "ConsensusReadSet/barcoded.consensusreadset.xml",
-    "filetype": "PacBio.DataSet.ConsensusReadSet"
+    "fileTypeId": "PacBio.DataSet.ConsensusReadSet"
   },
   {
     "id": "aligned-ds-2",
     "description": "Chunked AlignmentSet",
     "path": "AlignmentSet/m54006_160504_020705.alignmentset.xml",
-    "filetype": "PacBio.DataSet.AlignmentSet"
+    "fileTypeId": "PacBio.DataSet.AlignmentSet"
   },
   {
     "id": "internal-subreads",
     "description": "SubreadSet with PacBio Internal BAM file",
     "path": "SubreadSet/m54075_160703_015941.subreadset.xml",
-    "filetype": "PacBio.DataSet.SubreadSet"
+    "fileTypeId": "PacBio.DataSet.SubreadSet"
   },
   {
     "id": "aligned-internal-subreads",
     "description": "AlignmentSet from PacBio Internal BAM file",
     "path": "AlignmentSet/m54075_160703_015941.alignmentset.xml",
-    "filetype": "PacBio.DataSet.AlignmentSet"
+    "fileTypeId": "PacBio.DataSet.AlignmentSet"
   }
 ]
