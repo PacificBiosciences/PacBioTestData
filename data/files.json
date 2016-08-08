@@ -78,6 +78,12 @@
     "fileTypeId": "PacBio.DataSet.BarcodeSet"
   },
   {
+    "id": "barcode-fasta",
+    "description": "Barcodes FASTA",
+    "path": "BarcodeSet/example_barcodes.fasta",
+    "fileTypeId": "PacBio.FileTypes.Fasta"
+  },
+  {
     "id": "alignment-summary-gff",
     "description": "Alignment summary GFF from resequencing reports",
     "path": "GFF/alignment_summary.gff",
@@ -172,5 +178,11 @@
     "description": "AlignmentSet from PacBio Internal BAM file",
     "path": "AlignmentSet/m54075_160703_015941.alignmentset.xml",
     "fileTypeId": "PacBio.DataSet.AlignmentSet"
+  },
+  {
+    "id": "misc-fasta",
+    "description": "Spec-compliant FASTA with various example uses",
+    "path": "ContigSet/simple.fasta",
+    "fileTypeId": "PacBioFileTypes.Fasta"
   }
 ]

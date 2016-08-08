@@ -1,4 +1,6 @@
 >chr1 very minimal example of a multi-contig FASTA file
 ACGTACGTACGTACGTACGTACGTACGT
 >chr2 note that GenomicConsensus may output mixed case
-AAACCCGGGTTTaaacccGGGTTTAAAT
+AAACCCGGGTTTaaacccGGGTTTAAATACGT
+>chr3 we allow IUPAC characters too
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
