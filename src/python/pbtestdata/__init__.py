@@ -1,1 +1,1 @@
-from .core import get_file
+from .core import get_file, get_path
