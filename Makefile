@@ -1,7 +1,17 @@
-.PHONY: python
+.PHONY: all clean install
 
-python:
-	cd src/python && make install
+all: install
+
+python: install
+
+install:
+	python setup.py install
 
 clean:
-	cd src/python && make clean
+	rm -rf build dist
+	rm -rf pbtestdata/data
+	rm -rf pbtestdata/version.py
+	find . -name "*.egg-info" | xargs rm -rf
+	find . -name "*.pyc" | xargs rm -f
+	find . -name "*.err" | xargs rm -f
+	find . -name "*.log" | xargs rm -f

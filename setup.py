@@ -9,18 +9,18 @@ try:
 except ImportError:
     from distutils.core import setup
 
-version = json.load(open(os.path.join("..", "..", "version.json")))["version"]
-with open(os.path.join("pbtestdata", "version.py"), "w") as version_py:
-    version_py.write("VERSION = \"{v}\"".format(v=version))
-
+VERSION = "0.1.17"
 DATA = os.path.join("pbtestdata", "data")
+
+with open(os.path.join("pbtestdata", "version.py"), "w") as version_py:
+    version_py.write("VERSION = \"{v}\"".format(v=VERSION))
 
 if sys.argv[1] == "install":
     if os.path.exists(DATA):
         print "Removing old pbtestdata/data..."
         shutil.rmtree(DATA)
     print "Copying over pbtestdata/data..."
-    shutil.copytree(os.path.abspath(os.path.join("..", "..", "data")), DATA)
+    shutil.copytree(os.path.abspath("data"), DATA)
 package_data = []
 for dirname, dirnames, filenames in os.walk(DATA):
     for file_name in filenames:
@@ -30,7 +30,7 @@ for dirname, dirnames, filenames in os.walk(DATA):
 
 setup(
     name="pbtestdata",
-    version=version,
+    version=VERSION,
     license="BSD",
     author="natechols",
     url="https://github.com/PacificBiosciences/PacBioTestData",
