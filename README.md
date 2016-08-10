@@ -12,7 +12,7 @@ install as a Python module/cmdline tool:
   $ git clone https://github.com/PacificBiosciences/PacBioTestData.git
   $ cd PacBioTestData
   $ git lfs pull
-  $ make python
+  $ make install
 ```
 
 You can then access the `pbtestdata` Python module programatically:
@@ -41,6 +41,13 @@ Or use the command-line tool:
     -v, --version        show program's version number and exit
   $ pbtestdata get subreads-bam
   /path/to/movie.subreads.bam
+```
+
+Other codebases may implement their own accessors by reading `files.json`,
+which can be captured in an environment variable:
+
+```
+  export PB_TEST_DATA_FILES="`pbdata path`"
 ```
 
 Adding data
