@@ -9,7 +9,7 @@ try:
 except ImportError:
     from distutils.core import setup
 
-VERSION = "0.1.17"
+VERSION = "0.2.0"
 DATA = os.path.join("pbtestdata", "data")
 
 with open(os.path.join("pbtestdata", "version.py"), "w") as version_py:
