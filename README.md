@@ -4,14 +4,13 @@ Small datasets for testing
 Usage
 -----
 
-This repository requires the Git Large File Support extension
-(https://git-lfs.github.com/) to fetch binary data files.  To download and
-install as a Python module/cmdline tool:
+This repository provides a selection of small-ish representative files
+produced by PacBio systems and software, suitable for running simple tests.
+To download and install as a Python module/cmdline tool:
 
 ```
   $ git clone https://github.com/PacificBiosciences/PacBioTestData.git
   $ cd PacBioTestData
-  $ git lfs pull
   $ make install
 ```
 
