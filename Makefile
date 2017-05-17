@@ -15,3 +15,10 @@ clean:
 	find . -name "*.pyc" | xargs rm -f
 	find . -name "*.err" | xargs rm -f
 	find . -name "*.log" | xargs rm -f
+
+test:
+	$(eval DATASETS := `find data -name '*set.xml'`)
+	@for XML in $(DATASETS); do \
+		echo $$XML ;\
+		pbvalidate --quick $$XML || exit 1 ;\
+	done
