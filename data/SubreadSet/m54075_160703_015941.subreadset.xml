@@ -17,7 +17,7 @@
 </pbbase:ExternalResources>
 <pbds:DataSetMetadata>
 <pbds:TotalLength>3235734673</pbds:TotalLength>
-<pbds:NumRecords>1585581</pbds:NumRecords>
+<pbds:NumRecords>179</pbds:NumRecords>
 <pbmeta:Collections>
 <pbmeta:CollectionMetadata Context="m54075_160703_015941" Status="Ready" InstrumentId="54075" InstrumentName="Sequel" UniqueId="5243fae9-cb9d-4c44-8b4d-0ac1b5cb1b30" MetaType="CollectionMetadata" TimeStampedName="54075-CollectionMetadata-2016-44-01T19:44:53.910Z" CreatedAt="2016-07-01T19:23:15.47Z" ModifiedAt="0001-01-01T00:00:00">
 	<pbmeta:InstCtrlVer>3.1.1.181979</pbmeta:InstCtrlVer>

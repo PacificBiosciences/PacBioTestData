@@ -8,3 +8,6 @@ make install
 pbdata show
 pbdata path
 pbdata get subreads-sequel
+
+export PATH=/pbi/dept/secondary/builds/links/current_develop_smrttools-incremental_installdir/smrtcmds/bin:$PATH
+make test

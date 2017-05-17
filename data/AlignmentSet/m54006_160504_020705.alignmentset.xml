@@ -7,10 +7,10 @@
 				<pbbase:FileIndex MetaType="PacBio.Index.BamIndex" ResourceId="mapped-1/m54006_160504_020705.tiny_mapped.subreads.bam.bai" TimeStampedName="pacbio_index_bamindex-160715_152155892" UniqueId="160059c9-dc51-495f-b77e-237ecd96ef00"/>
 			</pbbase:FileIndices>
 		</pbbase:ExternalResource>
-		<pbbase:ExternalResource MetaType="PacBio.AlignmentFile.AlignmentBamFile" ResourceId="mapped-2/m54006_160504_020705.tiny_mapped.subreads.bam" TimeStampedName="pacbio_alignmentfile_alignmentbamfile-160715_152236742" UniqueId="f04ec688-2679-48aa-8872-31d490b81939">
+		<pbbase:ExternalResource MetaType="PacBio.AlignmentFile.AlignmentBamFile" ResourceId="mapped-2/m54006_160504_020705.tiny_mapped.subreads.bam" TimeStampedName="pacbio_alignmentfile_alignmentbamfile-160715_152236742" UniqueId="19e0c17f-8ba5-483a-aa71-a3e35eb3e1b5">
 			<pbbase:FileIndices>
-				<pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="mapped-2/m54006_160504_020705.tiny_mapped.subreads.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-160715_152236743" UniqueId="0fbdb364-0a48-40ec-b9ae-76deea54fb02"/>
-				<pbbase:FileIndex MetaType="PacBio.Index.BamIndex" ResourceId="mapped-2/m54006_160504_020705.tiny_mapped.subreads.bam.bai" TimeStampedName="pacbio_index_bamindex-160715_152236743" UniqueId="b9411aad-e869-43f0-9f47-c5c4fc49ef3b"/>
+				<pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="mapped-2/m54006_160504_020705.tiny_mapped.subreads.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-160715_152236743" UniqueId="e725751b-f900-4f54-945c-f275ad43ebed"/>
+				<pbbase:FileIndex MetaType="PacBio.Index.BamIndex" ResourceId="mapped-2/m54006_160504_020705.tiny_mapped.subreads.bam.bai" TimeStampedName="pacbio_index_bamindex-160715_152236743" UniqueId="86746a38-07d2-4efe-8200-9273324d6646"/>
 			</pbbase:FileIndices>
 		</pbbase:ExternalResource>
 	</pbbase:ExternalResources>
@@ -31,10 +31,10 @@
 		</AlignmentSet>
 		<AlignmentSet CreatedAt="2016-07-15T08:22:36" MetaType="PacBio.DataSet.AlignmentSet" Name="aligned-split-2" Tags="" TimeStampedName="pacbio_dataset_alignmentset-160715_152236743" UniqueId="ef50dbf9-3ef3-bf59-afd8-72278108c95b" Version="3.0.1" xsi:schemaLocation="http://pacificbiosciences.com/PacBioDataModel.xsd">
 			<pbbase:ExternalResources>
-				<pbbase:ExternalResource MetaType="PacBio.AlignmentFile.AlignmentBamFile" ResourceId="mapped-2/m54006_160504_020705.tiny_mapped.subreads.bam" TimeStampedName="pacbio_alignmentfile_alignmentbamfile-160715_152236742" UniqueId="f04ec688-2679-48aa-8872-31d490b81939">
+				<pbbase:ExternalResource MetaType="PacBio.AlignmentFile.AlignmentBamFile" ResourceId="mapped-2/m54006_160504_020705.tiny_mapped.subreads.bam" TimeStampedName="pacbio_alignmentfile_alignmentbamfile-160715_152236742" UniqueId="19e0c17f-8ba5-483a-aa71-a3e35eb3e1b5">
 					<pbbase:FileIndices>
-						<pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="mapped-2/m54006_160504_020705.tiny_mapped.subreads.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-160715_152236743" UniqueId="0fbdb364-0a48-40ec-b9ae-76deea54fb02"/>
-						<pbbase:FileIndex MetaType="PacBio.Index.BamIndex" ResourceId="mapped-2/m54006_160504_020705.tiny_mapped.subreads.bam.bai" TimeStampedName="pacbio_index_bamindex-160715_152236743" UniqueId="b9411aad-e869-43f0-9f47-c5c4fc49ef3b"/>
+						<pbbase:FileIndex MetaType="PacBio.Index.PacBioIndex" ResourceId="mapped-2/m54006_160504_020705.tiny_mapped.subreads.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-160715_152236743" UniqueId="e725751b-f900-4f54-945c-f275ad43ebed"/>
+						<pbbase:FileIndex MetaType="PacBio.Index.BamIndex" ResourceId="mapped-2/m54006_160504_020705.tiny_mapped.subreads.bam.bai" TimeStampedName="pacbio_index_bamindex-160715_152236743" UniqueId="86746a38-07d2-4efe-8200-9273324d6646"/>
 					</pbbase:FileIndices>
 				</pbbase:ExternalResource>
 			</pbbase:ExternalResources>
