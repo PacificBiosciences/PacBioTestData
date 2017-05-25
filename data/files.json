@@ -183,6 +183,12 @@
     "id": "misc-fasta",
     "description": "Spec-compliant FASTA with various example uses",
     "path": "ContigSet/simple.fasta",
-    "fileTypeId": "PacBioFileTypes.Fasta"
+    "fileTypeId": "PacBio.FileTypes.Fasta"
+  },
+  {
+    "id": "subreads-unbarcoded",
+    "description": "SubreadSet suitable for running bam2bam barcoding",
+    "path": "SubreadSet/m140918_150013_42139_c100697631700000001823144703261565_s1_p0.subreadset.xml",
+    "fileTypeId": "PacBio.DataSet.SubreadSet"
   }
 ]
