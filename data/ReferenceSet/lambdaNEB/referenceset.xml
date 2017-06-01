@@ -5,8 +5,6 @@
          <ns0:FileIndices>
             <ns0:FileIndex ResourceId="./sequence/lambdaNEB.fasta.sa" UniqueId="9b480a1c-e461-4ef9-b3f6-8ce0ab1025fa" MetaType="PacBio.Index.SaWriterIndex" TimeStampedName="index_160531_132856"/>
             <ns0:FileIndex ResourceId="./sequence/lambdaNEB.fasta.fai" UniqueId="2d0b8ed7-717c-4daa-a7e6-42464cf2c02f" MetaType="PacBio.Index.SamIndex" TimeStampedName="index_160531_132856"/>
-            <ns0:FileIndex ResourceId="sequence/lambdaNEB.fasta-enc.2.ngm" UniqueId="37a3b0fe-3c5b-4dfa-bcb6-dc2344e58446" MetaType="PacBio.Index.NgmlrRefEncoded" TimeStampedName="index_170316_132906"/>
-            <ns0:FileIndex ResourceId="sequence/lambdaNEB.fasta-ht-13-2.2.ngm" UniqueId="eb5e6eaa-f4cc-41a3-ab55-aa0d681f3f61" MetaType="PacBio.Index.NgmlrRefTable" TimeStampedName="index_170316_132906"/>
          </ns0:FileIndices>
       </ns0:ExternalResource>
    </ns0:ExternalResources>
