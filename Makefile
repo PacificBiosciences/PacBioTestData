@@ -20,5 +20,6 @@ test:
 	$(eval DATASETS := `find data -name '*set.xml'`)
 	@for XML in $(DATASETS); do \
 		echo $$XML ;\
+		grep 'ResourceId="/' $$XML && exit 1; \
 		pbvalidate --quick $$XML || exit 1 ;\
 	done
