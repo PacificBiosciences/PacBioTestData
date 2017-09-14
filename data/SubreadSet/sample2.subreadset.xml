@@ -32,9 +32,9 @@
 					<pbmeta:StageHotstartEnabled>true</pbmeta:StageHotstartEnabled>
 					<pbmeta:SizeSelectionEnabled>false</pbmeta:SizeSelectionEnabled>
 					<pbmeta:UseCount>1</pbmeta:UseCount>
-          <pbsample:BioSamples>
-              <pbsample:BioSample Name="Bob"/>
-          </pbsample:BioSamples>
+					<pbsample:BioSamples>
+						<pbsample:BioSample Name="Bob"/>
+					</pbsample:BioSamples>
 				</pbmeta:WellSample>
 				<pbmeta:Automation>
 					<pbbase:AutomationParameters>
