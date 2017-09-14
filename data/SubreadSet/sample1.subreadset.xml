@@ -32,9 +32,9 @@
 					<pbmeta:StageHotstartEnabled>true</pbmeta:StageHotstartEnabled>
 					<pbmeta:SizeSelectionEnabled>false</pbmeta:SizeSelectionEnabled>
 					<pbmeta:UseCount>1</pbmeta:UseCount>
-					<pbsample:BioSamplePointers>
-						<pbsample:BioSamplePointer>2b710c74-b410-45ac-a0e0-1303d150c3dc</pbsample:BioSamplePointer>
-					</pbsample:BioSamplePointers>
+          <pbsample:BioSamples>
+              <pbsample:BioSample Name="Alice"/>
+          </pbsample:BioSamples>
 				</pbmeta:WellSample>
 				<pbmeta:Automation>
 					<pbbase:AutomationParameters>
@@ -59,8 +59,5 @@
 				</pbmeta:Primary>
 			</pbmeta:CollectionMetadata>
 		</pbmeta:Collections>
-		<pbsample:BioSamples>
-			<pbsample:BioSample Description="Alice" MetaType="PacBio.Sample" Name="Alice" TimeStampedName="biosample_2016-04-14T14:03:49.595-07:00" UniqueId="2b710c74-b410-45ac-a0e0-1303d150c3dc"/>
-		</pbsample:BioSamples>
 	</DataSetMetadata>
 </SubreadSet>
