@@ -190,5 +190,17 @@
     "description": "SubreadSet suitable for running bam2bam barcoding",
     "path": "SubreadSet/m140918_150013_42139_c100697631700000001823144703261565_s1_p0.subreadset.xml",
     "fileTypeId": "PacBio.DataSet.SubreadSet"
+  },
+  {
+    "id": "subreads-biosample-1",
+    "description": "SubreadSet with BioSample defined, mocked metadata",
+    "path": "SubreadSet/sample1.subreadset.xml",
+    "fileTypeId": "PacBio.DataSet.SubreadSet"
+  },
+  {
+    "id": "subreads-biosample-2",
+    "description": "SubreadSet with another BioSample defined, mocked metadata",
+    "path": "SubreadSet/sample2.subreadset.xml",
+    "fileTypeId": "PacBio.DataSet.SubreadSet"
   }
 ]
