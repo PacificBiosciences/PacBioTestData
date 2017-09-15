@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SubreadSet CreatedAt="2016-03-31T18:18:39" MetaType="PacBio.DataSet.SubreadSet" Name="barcoded-subreadset" Tags="" TimeStampedName="pacbio_dataset_subreadset-160401_011839830" UniqueId="ceec5b21-69cc-0c4b-91db-d00835210816" Version="3.0.1" xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" xmlns:pbdm="http://pacificbiosciences.com/PacBioDataModel.xsd" xmlns:pbds="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:pbmeta="http://pacificbiosciences.com/PacBioCollectionMetadata.xsd" xmlns:pbsample="http://pacificbiosciences.com/PacBioSampleInfo.xsd" xmlns:pbrk="http://pacificbiosciences.com/PacBioReagentKit.xsd" xmlns:pbpn="http://pacificbiosciences.com/PacBioPartNumbers.xsd" xmlns:pbbase="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">
+<pbds:SubreadSet CreatedAt="2016-03-31T18:18:39" MetaType="PacBio.DataSet.SubreadSet" Name="barcoded-subreadset" Tags="" TimeStampedName="pacbio_dataset_subreadset-160401_011839830" UniqueId="ceec5b21-69cc-0c4b-91db-d00835210816" Version="3.0.1" xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" xmlns:pbdm="http://pacificbiosciences.com/PacBioDataModel.xsd" xmlns:pbds="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:pbmeta="http://pacificbiosciences.com/PacBioCollectionMetadata.xsd" xmlns:pbsample="http://pacificbiosciences.com/PacBioSampleInfo.xsd" xmlns:pbrk="http://pacificbiosciences.com/PacBioReagentKit.xsd" xmlns:pbpn="http://pacificbiosciences.com/PacBioPartNumbers.xsd" xmlns:pbbase="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">
   <pbbase:ExternalResources>
     <pbbase:ExternalResource MetaType="PacBio.SubreadFile.SubreadBamFile" ResourceId="barcoded.subreads.bam" TimeStampedName="pacbio_subreadfile_subreadbamfile-160401_011839830" UniqueId="1c4a4fa3-2c6a-4d0a-867d-9bbb932af555">
       <pbbase:FileIndices>
@@ -15,9 +15,9 @@
       </pbbase:ExternalResources>
     </pbbase:ExternalResource>
   </pbbase:ExternalResources>
-  <DataSetMetadata>
-    <TotalLength>11431</TotalLength>
-    <NumRecords>3</NumRecords>
+  <pbds:DataSetMetadata>
+    <pbds:TotalLength>11431</pbds:TotalLength>
+    <pbds:NumRecords>3</pbds:NumRecords>
     <pbmeta:Collections>
     <pbmeta:CollectionMetadata Context="m54008_160219_003234" Status="Ready" InstrumentId="54008" InstrumentName="Inst54008" UniqueId="cfb3ad96-e93b-47cc-a1b4-27e386d4522f" MetaType="CollectionMetadata" TimeStampedName="54008-CollectionMetadata-2016-29-19T00:29:05.220Z" CreatedAt="0001-01-01T00:00:00" ModifiedAt="0001-01-01T00:00:00">
       <pbmeta:InstCtrlVer>3.0.4.173677</pbmeta:InstCtrlVer>
@@ -108,5 +108,5 @@
       </pbmeta:UserDefinedFields>
     </pbmeta:CollectionMetadata>
     </pbmeta:Collections>
-  </DataSetMetadata>
-</SubreadSet>
+  </pbds:DataSetMetadata>
+</pbds:SubreadSet>
