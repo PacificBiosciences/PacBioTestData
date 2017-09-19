@@ -33,7 +33,11 @@
 					<pbmeta:SizeSelectionEnabled>false</pbmeta:SizeSelectionEnabled>
 					<pbmeta:UseCount>1</pbmeta:UseCount>
 					<pbsample:BioSamples>
-						<pbsample:BioSample Name="Bob"/>
+						<pbsample:BioSample Name="Bob">
+              <pbsample:DNABarcodes>
+                <pbsample:DNABarcode Name="F2--R2"/>
+              </pbsample:DNABarcodes>
+            </pbsample:BioSample>
 					</pbsample:BioSamples>
 				</pbmeta:WellSample>
 				<pbmeta:Automation>
