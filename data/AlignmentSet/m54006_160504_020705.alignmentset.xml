@@ -28,8 +28,8 @@
 				<TotalLength>113886</TotalLength>
 				<NumRecords>11</NumRecords>
 			</DataSetMetadata>
-		</AlignmentSet>
-		<AlignmentSet CreatedAt="2016-07-15T08:22:36" MetaType="PacBio.DataSet.AlignmentSet" Name="aligned-split-2" Tags="" TimeStampedName="pacbio_dataset_alignmentset-160715_152236743" UniqueId="ef50dbf9-3ef3-bf59-afd8-72278108c95b" Version="3.0.1" xsi:schemaLocation="http://pacificbiosciences.com/PacBioDataModel.xsd">
+		</DataSet>
+		<DataSet CreatedAt="2016-07-15T08:22:36" MetaType="PacBio.DataSet.AlignmentSet" Name="aligned-split-2" Tags="" TimeStampedName="pacbio_dataset_alignmentset-160715_152236743" UniqueId="ef50dbf9-3ef3-bf59-afd8-72278108c95b" Version="3.0.1" xsi:schemaLocation="http://pacificbiosciences.com/PacBioDataModel.xsd">
 			<pbbase:ExternalResources>
 				<pbbase:ExternalResource MetaType="PacBio.AlignmentFile.AlignmentBamFile" ResourceId="mapped-2/m54006_160504_020705.tiny_mapped.subreads.bam" TimeStampedName="pacbio_alignmentfile_alignmentbamfile-160715_152236742" UniqueId="19e0c17f-8ba5-483a-aa71-a3e35eb3e1b5">
 					<pbbase:FileIndices>
