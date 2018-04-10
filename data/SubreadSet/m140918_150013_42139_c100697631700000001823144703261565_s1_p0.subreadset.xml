@@ -29,9 +29,6 @@
 					<pbmeta:StageHotstartEnabled>true</pbmeta:StageHotstartEnabled>
 					<pbmeta:SizeSelectionEnabled>false</pbmeta:SizeSelectionEnabled>
 					<pbmeta:UseCount>1</pbmeta:UseCount>
-					<pbsample:BioSamplePointers>
-						<pbsample:BioSamplePointer>500324b8-8dab-4592-87fa-86727e87811e</pbsample:BioSamplePointer>
-					</pbsample:BioSamplePointers>
 				</pbmeta:WellSample>
 				<pbmeta:Automation>
 					<pbbase:AutomationParameters>
@@ -56,8 +53,5 @@
 				</pbmeta:Primary>
 			</pbmeta:CollectionMetadata>
 		</pbmeta:Collections>
-		<pbsample:BioSamples>
-			<pbsample:BioSample Description="BCS23 384-barcode pannel diffusion 70pM P6C4" MetaType="PacBio.Sample" Name="BCS23 diffusion 70pM P6C4" TimeStampedName="biosample_2016-04-14T14:03:49.595-07:00" UniqueId="500324b8-8dab-4592-87fa-86727e87811e"/>
-		</pbsample:BioSamples>
 	</DataSetMetadata>
 </SubreadSet>
